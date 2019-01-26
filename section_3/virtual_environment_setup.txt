@@ -1,0 +1,3 @@
+pip install virtual env
+
+virtualenv venv --python="C:\Users\dharcourt\AppData\Local\Programs\Python\Python36-32\python.exe"
