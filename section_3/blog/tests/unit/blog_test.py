@@ -10,3 +10,12 @@ class BlogTest(TestCase):
         self.assertEqual('Test Author', b.author)
         self.assertListEqual([], b.posts)
 
+    def test_repr_blog(self, object):
+        pass
+
+    def test_create_post(self, title, content):
+        p = Post('Test', 'Test Content')
+
+        self.assertEqual('Test', p.title)
+        self.assertEqual('Test Content', p.content)
+
