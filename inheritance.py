@@ -7,17 +7,23 @@ class Student:
     def average(self):
         return sum(self.marks) / len(self.marks)
 
-    def friend(self, friend_name):
+    @classmethod
+    def friend(cls, origin, friend_name, *args, **kwargs):
         # return a new student called 'friend_name'
         # in the same school as self
-        return Student(friend_name, self.school)
+        return cls(friend_name, origin.school, *args, **kwargs)
 
 ##
 
 class WorkingStudent(Student):
-    pass
+    def __init__(self, name, school, salary, job_title):
+        super().__init__(name, school)
+        self.salary = salary
+        self.job_title = job_title
 
-anna = WorkingStudent("Anna", "Oxford")
-friend = anna.friend("Greg")
+anna = WorkingStudent("Anna", "Oxford", 20.00, job_title = "Chef")
+print(anna.salary)
+friend = WorkingStudent.friend(anna,"Greg", 17.00, job_title = "Software Developer")
 print(friend.name)
 print(friend.school)
+print(friend.salary)
