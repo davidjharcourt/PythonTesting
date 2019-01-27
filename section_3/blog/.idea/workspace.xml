@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d009f8e7-7287-4ccd-904b-32b4000e26ef" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/blog.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/integration/blog_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/integration/blog_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/unit/blog_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/unit/blog_test.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -64,8 +62,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tests/integration/blog_test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="125">
-              <caret line="15" column="15" selection-start-line="15" selection-start-column="15" selection-end-line="15" selection-end-column="15" />
+            <state relative-caret-position="189">
+              <caret line="15" column="33" lean-forward="true" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
               <folding>
                 <element signature="e#0#29#0" expanded="true" />
               </folding>
@@ -93,16 +91,15 @@
         <option value="$PROJECT_DIR$/post.py" />
         <option value="$PROJECT_DIR$/tests/integration/test_blog.py" />
         <option value="$PROJECT_DIR$/tests/unit/blog_test.py" />
-        <option value="$PROJECT_DIR$/tests/integration/blog_test.py" />
         <option value="$PROJECT_DIR$/blog.py" />
+        <option value="$PROJECT_DIR$/tests/integration/blog_test.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-9" />
-    <option name="y" value="-9" />
-    <option name="width" value="1938" />
-    <option name="height" value="1048" />
+    <option name="x" value="952" />
+    <option name="width" value="977" />
+    <option name="height" value="1038" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -156,27 +153,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests for blog_test.BlogTest.test_json">
+  <component name="RunManager" selected="Python tests.Unittests for blog_test.BlogTest.test_json_no_posts">
     <configuration name="Unittests for blog_test.BlogTest.test_create_post_in_blog (1)" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="blog" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/integration" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;blog_test.BlogTest.test_create_post_in_blog&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Unittests for blog_test.BlogTest.test_create_post_in_blog" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="blog" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/unit" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
@@ -199,21 +182,36 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for blog_test.BlogTest.test_repr_multiple_posts" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for blog_test.BlogTest.test_json_no_posts" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="blog" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/unit" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/integration" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;blog_test.BlogTest.test_repr_multiple_posts&quot;" />
+      <option name="_new_target" value="&quot;blog_test.BlogTest.test_json_no_posts&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for post_test.PostTest.test_create_post" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests in tests" type="tests" factoryName="Unittests" temporary="true">
+      <module name="blog" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_pattern" value="&quot;*_test.py&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests in unit" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="blog" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -222,25 +220,26 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_pattern" value="&quot;*_test.py&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;post_test.PostTest.test_create_post&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/unit&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python tests.Unittests for blog_test.BlogTest.test_repr_multiple_posts" />
-      <item itemvalue="Python tests.Unittests for blog_test.BlogTest.test_create_post_in_blog" />
       <item itemvalue="Python tests.Unittests for blog_test.BlogTest.test_create_post_in_blog (1)" />
-      <item itemvalue="Python tests.Unittests for post_test.PostTest.test_create_post" />
       <item itemvalue="Python tests.Unittests for blog_test.BlogTest.test_json" />
+      <item itemvalue="Python tests.Unittests in tests" />
+      <item itemvalue="Python tests.Unittests in unit" />
+      <item itemvalue="Python tests.Unittests for blog_test.BlogTest.test_json_no_posts" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Unittests for blog_test.BlogTest.test_json_no_posts" />
+        <item itemvalue="Python tests.Unittests in tests" />
+        <item itemvalue="Python tests.Unittests in unit" />
         <item itemvalue="Python tests.Unittests for blog_test.BlogTest.test_json" />
         <item itemvalue="Python tests.Unittests for blog_test.BlogTest.test_create_post_in_blog (1)" />
-        <item itemvalue="Python tests.Unittests for post_test.PostTest.test_create_post" />
-        <item itemvalue="Python tests.Unittests for blog_test.BlogTest.test_create_post_in_blog" />
-        <item itemvalue="Python tests.Unittests for blog_test.BlogTest.test_repr_multiple_posts" />
       </list>
     </recent_temporary>
   </component>
@@ -266,27 +265,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_for_blog_test_BlogTest_test_json - 2019.01.27 at 10h 15m 40s.xml">
-      <configuration name="Unittests for blog_test.BlogTest.test_json" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_blog_test_BlogTest_test_json - 2019.01.27 at 10h 19m 40s.xml">
-      <configuration name="Unittests for blog_test.BlogTest.test_json" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_blog_test_BlogTest_test_json - 2019.01.27 at 10h 20m 42s.xml">
-      <configuration name="Unittests for blog_test.BlogTest.test_json" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_blog_test_BlogTest_test_json - 2019.01.27 at 10h 23m 04s.xml">
-      <configuration name="Unittests for blog_test.BlogTest.test_json" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_blog_test_BlogTest_test_json - 2019.01.27 at 10h 25m 02s.xml">
-      <configuration name="Unittests for blog_test.BlogTest.test_json" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_blog_test_BlogTest_test_json - 2019.01.27 at 10h 25m 24s.xml">
-      <configuration name="Unittests for blog_test.BlogTest.test_json" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_blog_test_BlogTest_test_json - 2019.01.27 at 10h 26m 30s.xml">
-      <configuration name="Unittests for blog_test.BlogTest.test_json" configurationId="tests" />
-    </history-entry>
     <history-entry file="Unittests_for_blog_test_BlogTest_test_json - 2019.01.27 at 10h 29m 44s.xml">
       <configuration name="Unittests for blog_test.BlogTest.test_json" configurationId="tests" />
     </history-entry>
@@ -296,17 +274,37 @@
     <history-entry file="Unittests_for_blog_test_BlogTest_test_json - 2019.01.27 at 10h 36m 28s.xml">
       <configuration name="Unittests for blog_test.BlogTest.test_json" configurationId="tests" />
     </history-entry>
+    <history-entry file="Unittests_for_blog_test_BlogTest_test_json - 2019.01.27 at 10h 37m 10s.xml">
+      <configuration name="Unittests for blog_test.BlogTest.test_json" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_tests - 2019.01.27 at 10h 38m 57s.xml">
+      <configuration name="Unittests in tests" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_unit - 2019.01.27 at 10h 39m 17s.xml">
+      <configuration name="Unittests in unit" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_tests - 2019.01.27 at 10h 40m 10s.xml">
+      <configuration name="Unittests in tests" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_tests - 2019.01.27 at 10h 43m 11s.xml">
+      <configuration name="Unittests in tests" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_blog_test_BlogTest_test_json_no_posts - 2019.01.27 at 10h 46m 59s.xml">
+      <configuration name="Unittests for blog_test.BlogTest.test_json_no_posts" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_blog_test_BlogTest_test_json_no_posts - 2019.01.27 at 10h 47m 22s.xml">
+      <configuration name="Unittests for blog_test.BlogTest.test_json_no_posts" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2247191" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3286119" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3286119" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -393,8 +391,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/integration/blog_test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="15" column="15" selection-start-line="15" selection-start-column="15" selection-end-line="15" selection-end-column="15" />
+        <state relative-caret-position="189">
+          <caret line="15" column="33" lean-forward="true" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
           <folding>
             <element signature="e#0#29#0" expanded="true" />
           </folding>
