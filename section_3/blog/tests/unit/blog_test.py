@@ -26,13 +26,6 @@ class BlogTest(TestCase):
         self.assertEqual('Test by Test Author (1 post)', b.__repr__())
         self.assertEqual('My Day by Rolf (2 posts)', b2.__repr__())
 
-    def test_create_post_in_blog(self):
-        b = Blog('Test', 'Test Author')
-        b.create_post('Test Post', 'Test Content')
-
-        self.assertEqual(1, len(b.posts))
-        self.assertEqual('Test Post', b.posts[0].title)
-        self.assertEqual('Test Content', b.posts[0].content)
 
     def test_json(self):
         pass
